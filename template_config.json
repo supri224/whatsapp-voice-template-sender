@@ -1,0 +1,61 @@
+{
+  "templates": {
+    "otp_verification": {
+      "name": "otp_verification",
+      "type": "authentication",
+      "display": "OTP Verification",
+      "params_count": 1,
+      "has_header": false,
+      "has_otp": true,
+      "description": "Authentication template: {{1}} is the verification code with a Copy Code button"
+    },
+    "crmtest": {
+      "name": "crmtest",
+      "type": "text",
+      "display": "CRM Test",
+      "category": "marketing",
+      "params_count": 1,
+      "has_header": false,
+      "has_otp": false,
+      "description": "Simple marketing template: Hi {{1}}, it was really a pleasure talking with you. Follow-up assistance message."
+    },
+    "toprewards": {
+    "name": "toprewards",
+    "type": "text",
+    "display": "Top Rewards Campaign",
+    "category": "marketing",
+    "params_count": 0,
+    "has_header": true,
+    "header_type": "image",
+    "header_image": "https://pingbix-omni-whtaspp-media.s3.ap-south-1.amazonaws.com/uploads/1763544035498.jpg",
+    "has_otp": false,
+    "description": "Marketing template with image header and one variable {{1}} for customer name plus a Chat with us now CTA."
+    },
+  "qr": {
+  "name": "qr",
+  "type": "text",
+  "display": "QR Test Flow",
+  "category": "marketing",
+  "params_count": 0,
+  "has_header": true,
+  "header_type": "text",
+  "header_text": "PiNGBIX",
+  "has_otp": false,
+  "description": "Simple QR test template with text header and a 'pay now' quick reply button."
+},
+"diwali_campaign": {
+  "name": "diwali_campaign",
+  "type": "text",
+  "display": "Diwali Campaign",
+  "category": "marketing",
+  "params_count": 1,
+  "has_header": false,
+  "has_otp": false,
+  "description": "Diwali campaign with dynamic URL {{1}} in CTA website button."
+}
+
+}
+
+
+}
+
